@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:gravity="center_vertical"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
@@ -19,7 +18,7 @@
 
             <ImageView
                 android:id="@+id/bannerIv"
-                android:src="@drawable/gambar1"
+                android:src="@drawable/gambar2"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"/>
@@ -45,6 +44,7 @@
                 android:ellipsize="end"
                 android:maxLines="4"
                 android:minLines="4"
+                android:fontFamily="@font/euclid_medium"
                 android:padding="15dp"
                 android:text="Persebaya Relakan Kepergian Ricky Kambuaya dan Rachmat Irianto, Ada yang Beralasan Aksi Teror Mulai Merembet ke Keluarga"
                 android:textColor="@color/black"
@@ -52,11 +52,5 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-<item>
-    <shape android:shape="rectangle">
-
-    </shape>
-</item>
 
 </LinearLayout>
